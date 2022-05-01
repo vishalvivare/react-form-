@@ -1,0 +1,41 @@
+export const ShowData = ({ userData }) => {
+    return (
+      <>
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>{userData.Name}</td>
+            </tr>
+            <tr>
+              <td>Age</td>
+              <td>{userData.Age}</td>
+            </tr>
+            <tr>
+              <td>Department</td>
+              <td>{userData.Department}</td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>{userData.Address}</td>
+            </tr>
+            <tr>
+              <td>Salary</td>
+              <td>{userData.Salary}</td>
+            </tr>
+            <tr>
+              <td>Marital</td>
+              <td>{userData.Marital}</td>
+            </tr>
+          </tbody>
+        </table>
+      </>
+    );
+  };
+  
